@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter App</title>
+
+    <!-- cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- wrapper -->
+    <div
+      class="w-[100vw] h-[100vh] flex flex-col justify-center items-center bg-[#344151] gap-10"
+    >
+      <!-- text -->
+      <div class="text-[#0398d4] font-medium text-[25px]">
+        Increment And Decrement
+      </div>
+
+      <!-- icons container -->
+      <div
+        class="bg-white flex space-evenly text-[25px] text-[#344151] rounded-sm gap-12 px-5 py-[7px]"
+      >
+        <!-- minus icon -->
+        <button id="btn1"  class="border-r-2 border-[#bfbfbf] pr-5">
+          <i class="fa-solid fa-minus"></i>
+        </button>
+
+        <!-- number -->
+        <div id="counter" class="font-bold">0</div>
+
+        <!-- plus icon -->
+
+        <button id="btn2" class="border-l-2 border-[#bfbfbf] pl-5">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- font awesom -->
+
+    <script
+      src="https://kit.fontawesome.com/9617e013b5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
